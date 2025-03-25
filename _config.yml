@@ -24,11 +24,11 @@ author:
   avatar           : "myPicture.png"
   name             : "Zhongnan Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
   uri              : # URL
-  email            : # "none@example.org" 
+  email            : "znanliu@umich.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

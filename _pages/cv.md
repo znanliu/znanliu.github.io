@@ -7,4 +7,6 @@ redirect_from:
   - /resume
 ---
 
+{% include base_path %}
+
 Here is my [CV]() (last updated Dec. 2025)

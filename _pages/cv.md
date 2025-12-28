@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my [CV]() (last updated Dec. 2025)
+Here is my [CV]() (last updated Dec. 2025).

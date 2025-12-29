@@ -1,17 +1,23 @@
 - title: "A Fast Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning Acceleration"
-  authors: "Zhongnan Liu, Nicole, Seiberlich, Liyue Shen, Jesse Hamilton."
+  authors: "Zhongnan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
   conference: "29th Annual Meeting of the SCMR, Rio De Janeiro, Brazil, Feb. 2026 (Oral)."
 
+- title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
+  authors: "Zhongnan Liu, Calder D. Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
+  conference: "ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, USA, Jan. 2026 (Oral)."
 
+- title: "Deep Image Prior Denoising of Cardiac FISP-MRF T1, T2, and M0 Maps at 0.55T"
+  authors: "Zhongnan Liu, Imran Rashid, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
+  conference: "33rd Annual Meeting of the ISMRM, Hawaii, USA, May 2025."
 
+- title: "Cardiac MRF T1, T2, and M0 mapping at 0.55T with a Low-rank Deep Image Prior Reconstruction"
+  authors: "Zhongnan Liu, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
+  conference: "28th Annual Meeting of the SCMR, Washington, D.C., USA, Feb, 2025."
 
+- title: "Pattern Search Pulse Sequence Optimization for Cardiac MR Fingerprinting"
+  authors: "Zhongnan Liu, Jacob Richardson, Nicole Seiberlich, Jesse Hamilton."
+  conference: "32nd Annual Meeting of the ISMRM, Singapore, May 2024 (Oral)."
 
-
-
-    # \item \underline{\textbf{Zhongnan Liu}}, Calder D. Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton. "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning". In: \textit{ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, USA, Jan. 2026.} \textbf{(Oral)}.
-    # \item \underline{\textbf{Zhongnan Liu}}, Imran Rashid, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton. "Deep Image Prior Denoising of Cardiac FISP-MRF T1, T2, and M0 Maps at 0.55T". In: \textit{33rd Annual Meeting of the ISMRM, Hawaii, USA, May 2025.}
-    # \item \underline{\textbf{Zhongnan Liu}}, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton. "Cardiac MRF T1, T2, and M0 mapping at 0.55T with a Low-rank Deep Image Prior Reconstruction". In: \textit{28th Annual Meeting of the SCMR, Washington, D.C., USA, Feb, 2025 }
-    # \item \underline{\textbf{Zhongnan Liu}}, Jacob Richardson, Nicole Seiberlich, Jesse Hamilton. "Pattern Search Pulse Sequence Optimization for Cardiac MR Fingerprinting". In: \textit{32nd Annual Meeting of the ISMRM, Singapore, May 2024.} \textbf{(Oral)}.
     # \item Calder D. Sheagren, \underline{\textbf{Zhongnan Liu}}, Zexuan Liu, Gastao Lima Da Cruz, Jesse Hamilton. "A Single-TR-Resolved Deep Image Prior Reconstruction for Cardiac MR Fingerprinting". In: \textit{29th Annual Meeting of the SCMR, Rio De Janeiro, Brazil, Feb. 2026.}
     # \item Zexuan Liu, Gastao Lima Da Cruz, \underline{\textbf{Zhongnan Liu}}, Calder D. Sheagren, Nicole Seiberlich, Jesse Hamilton. "Ensemble Averaging to Improve the Precision and Repeatability of Deep Image Prior Lung MR Fingerprinting at 0.55T". In: \textit{29th Annual Meeting of the SCMR, Rio De Janeiro, Brazil, Feb. 2026.}
     # \item Ana Cecilia Saavedra Bazan, Sydney Kaplan, \underline{\textbf{Zhongnan Liu}}, Jacob Richardson, Chaitanya Madamanchi, Jesse Hamilton, Nicole Seiberlich. "Spiral Trajectory Design and DIP Reconstruction for High-Resolution Cardiac MRF of the Atria". In: \textit{ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, USA, Jan. 2026.}

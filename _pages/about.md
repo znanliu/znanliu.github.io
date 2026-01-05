@@ -15,4 +15,6 @@ I am a PhD Candidate in ECE department at the University of Michigan, co-advised
 - **{{ item.date }}** – {% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}{{ item.title }}{% endif %}
 {% endfor %}
 
+<! --
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=pguHiRWMKX6zEEkDl1GsuiLK4KV_I_WPdSa-IJjyOm4&cl=ffffff&w=a"></script>
+-->

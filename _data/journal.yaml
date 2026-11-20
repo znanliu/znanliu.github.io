@@ -1,7 +1,11 @@
 - title: "Cardiac MR Fingerprinting at 0.55T Using a Deep Image Prior for Joint T1, T2, and M0 Mapping"
-  authors: "<b>Zhongnan Liu</b>, et al."
-  venue: "Journal of Magnetic Resonance Imaging (JMRI), 2026. <b>Selected for the May 2026 journal cover.</b>"
+  authors: "<b>Z. Liu</b>, Z. Liu, I. Rashid, M. S. Galizia, C. Scoma, W. Truesdell, P. Agarwal, et al."
+  venue: "Journal of Magnetic Resonance Imaging, 63(5), 1365–1377, 2026. <b>Selected for the May 2026 journal cover.</b>"
 
 - title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
-  authors: "<b>Zhongnan Liu</b>, et al."
+  authors: "<b>Z. Liu</b>, et al."
   venue: "IEEE Transactions on Medical Imaging, under review."
+
+- title: "Wood–Leaf Classification of Tree Point Cloud Based on Intensity and Geometric Information"
+  authors: "J. Sun, P. Wang, Z. Gao, <b>Z. Liu</b>, Y. Li, X. Gan, Z. Liu"
+  venue: "Remote Sensing, 13(20), 4050, 2021."

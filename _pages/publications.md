@@ -20,7 +20,7 @@ Full list on [Google Scholar]({{ site.author.googlescholar }}).
 {% for paper in site.data.ml_conference %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
-  _{{ paper.venue }}_  
+  _{{ paper.venue }}_{% if paper.url %} [[arXiv]]({{ paper.url }}){% endif %}  
 {% endfor %}
 
 ## Selected Conference Abstracts

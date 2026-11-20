@@ -1,7 +1,7 @@
 - title: "Cardiac MR Fingerprinting at 0.55T Using a Deep Image Prior for Joint T1, T2, and M0 Mapping"
   authors: "<b>Zhongnan Liu</b>, Zexuan Liu, Imran Rashid, Mauricio Stanzione Galizia, Christopher Scoma, William Truesdell, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
-  venue: "Journal of Magnetic Resonance Imaging, 63(5), 1365–1377, 2026. <b>Selected for the May 2026 journal cover.</b>"
-  url: "https://doi.org/10.1002/jmri.70316"
+  venue: "Journal of Magnetic Resonance Imaging, 63(5), 1365–1377, 2026. <b>Selected for the <a href=\"https://doi.org/10.1002/jmri.70316\">May 2026 journal cover</a>.</b>"
+  url: "https://doi.org/10.1002/jmri.70239"
   link_label: "DOI"
 
 - title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"

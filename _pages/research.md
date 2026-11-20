@@ -22,8 +22,9 @@ My research is on machine learning for inverse problems, applied to quantitative
 
 - Developed a REPTILE-based framework that meta-learns adaptable initializations for image reconstruction, coil sensitivity estimation, and network inputs in scan-specific, self-supervised cardiac MRF reconstruction.
 - Designed a coarse-to-fine optimization strategy with low-rank subspace modeling and Toeplitz-accelerated non-Cartesian data consistency to reduce repeated NUFFT computations.
-- Reduced reconstruction time from ~14 to 2 min (~7×) with comparable myocardial T<sub>1</sub>/T<sub>2</sub>/M<sub>0</sub> maps across 24 held-out healthy subjects. Evaluated generalization to patient, post-contrast, and long-axis data.
-- Deployed the reconstruction inline on a clinical MRI scanner as a streaming server inside the vendor's sandboxed, network-isolated runtime, running on an 8 GB NVIDIA T1000 edge GPU.
+- Meta-trained on 40 datasets on an HPC cluster to get a shared initialization for a two-stage test-time optimization with mixed precision and CUDA Graphs.
+- Cut per-sample reconstruction time **60×** (42 min → ~40 s) on static data and **35×** (2 h → ~3.4 min) on time-series (cine) data on an A40 GPU. The speedup comes from meta-initialization and profiling-driven GPU optimization (GROG gridding, Toeplitz operators, fused data pipeline), with no loss in accuracy and good out-of-distribution generalization (patient, post-contrast, and long-axis data).
+- Deployed the reconstruction inline on a clinical MRI scanner as a streaming TCP server inside the vendor's sandboxed, network-isolated runtime. It returns quantitative maps in ~3.4 min on an 8 GB NVIDIA T1000 edge GPU.
 
 ## Low-Field Cardiac MRF: Sequence Adaptation & Reconstruction
 *Aug. 2024 – Dec. 2025*

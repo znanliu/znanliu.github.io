@@ -1,4 +1,9 @@
 # first_author: true -> listed under "First-author", otherwise under "Co-author"
+- title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
+  authors: "<b>Zhongnan Liu</b>, Calder Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026 (Oral)."
+  first_author: true
+
 - title: "A Fast Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning Acceleration"
   authors: "<b>Zhongnan Liu</b>, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
   conference: "29th Annual Meeting of the SCMR, Rio De Janeiro, Brazil, Feb. 2026 (Oral)."
@@ -23,6 +28,18 @@
   authors: "<b>Zhongnan Liu</b>, Jacob Richardson, Nicole Seiberlich, Jesse Hamilton."
   conference: "32nd Annual Meeting of the ISMRM, Singapore, May 2024 (Oral)."
   first_author: true
+
+- title: "High-Resolution 2D Cardiac MR Fingerprinting for Atrial Wall Assessment"
+  authors: "Ana C. Saavedra, Sydney Kaplan, <b>Zhongnan Liu</b>, Jacob Richardson, Chaitanya Madamanchi, Jesse Hamilton, Nicole Seiberlich."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026 (Flash Presentation)."
+
+- title: "Low-Rank Motion-Corrected Deep Image Prior Reconstruction for Cardiac Magnetic Resonance Fingerprinting"
+  authors: "Calder Sheagren, <b>Zhongnan Liu</b>, Zexuan Liu, Gastao Cruz, Jesse Hamilton."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026 (Digital Poster)."
+
+- title: "Improving the Precision and Repeatability of 0.55T Lung MRF Using a Deep Image Prior with Ensemble Averaging"
+  authors: "Zexuan Liu, <b>Zhongnan Liu</b>, Calder Sheagren, Gastao Cruz, Nicole Seiberlich, Jesse Hamilton."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026 (Digital Poster)."
 
 - title: "A Single-TR-Resolved Deep Image Prior Reconstruction for Cardiac MR Fingerprinting"
   authors: "Calder D. Sheagren, <b>Zhongnan Liu</b>, Zexuan Liu, Gastao Lima Da Cruz, Jesse Hamilton."

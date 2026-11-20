@@ -1,8 +1,9 @@
 - title: "Prospective Dynamic 3D MRI Reconstruction via Latent-Space Motion Tracking from Single Measurement"
-  authors: "L. Chen, <b>Z. Liu</b>, J. Hamilton, J. M. Balter, J. J. Park, L. Shen"
+  authors: "L. Chen, <b>Zhongnan Liu</b>, J. Hamilton, J. M. Balter, J. J. Park, L. Shen"
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026, pp. 5627–5636."
   url: "https://arxiv.org/abs/2606.04249"
+  link_label: "arXiv"
 
 - title: "Free-Breathing Ungated Cine Cardiac MRI in Seconds via a Cross-Slice Transformer"
-  authors: "M. Choi, L. Chen, S. Yang, <b>Z. Liu</b>, J. I. Hamilton, J. J. Park"
+  authors: "M. Choi, L. Chen, S. Yang, <b>Zhongnan Liu</b>, J. I. Hamilton, J. J. Park"
   venue: "International Conference on Learning Representations (ICLR), under review."

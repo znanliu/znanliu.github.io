@@ -13,21 +13,29 @@ Full list on [Google Scholar]({{ site.author.googlescholar }}).
 {% for paper in site.data.journal %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
-  _{{ paper.venue }}_  
+  _{{ paper.venue }}_{% if paper.url %} [[{{ paper.link_label }}]]({{ paper.url }}){% endif %}  
 {% endfor %}
 
-## Machine Learning Conference Papers
-{% for paper in site.data.ml_conference %}
+## Conference Papers
+{% for paper in site.data.conference_papers %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
-  _{{ paper.venue }}_{% if paper.url %} [[arXiv]]({{ paper.url }}){% endif %}  
+  _{{ paper.venue }}_{% if paper.url %} [[{{ paper.link_label }}]]({{ paper.url }}){% endif %}  
 {% endfor %}
 
-## Selected Conference Abstracts
-I have co-authored 22 ISMRM/SCMR abstracts (9 as first author), with 5 oral presentations. First-author abstracts:
+## Conference Abstracts
+I have co-authored 22 ISMRM/SCMR abstracts (9 as first author), with 5 oral presentations. Selected abstracts are listed below.
 
-{% for paper in site.data.conference %}
+### First-author
+{% for paper in site.data.conference %}{% if paper.first_author %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
   _{{ paper.conference }}_  
-{% endfor %}
+{% endif %}{% endfor %}
+
+### Co-author
+{% for paper in site.data.conference %}{% unless paper.first_author %}
+- **{{ paper.title }}**  
+  {{ paper.authors }}  
+  _{{ paper.conference }}_  
+{% endunless %}{% endfor %}

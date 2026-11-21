@@ -2,6 +2,17 @@
 # first_author: true -> listed under "First-author", otherwise under "Co-author".
 # url: link to the abstract (rendered as [Abstract]).
 
+# ---- 30th SCMR Annual Scientific Sessions, Rome (upcoming) ----
+- title: "Retrospective Evaluation of a Shortened Cine MR Fingerprinting Acquisition"
+  authors: "<b>Zhongnan Liu</b>, et al."
+  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027. ISMRM-SCMR Workshop Session: Short and Fast CMR Exams (Oral)."
+  first_author: true
+
+- title: "An Accelerated Deep Image Prior Reconstruction for Cine MR Fingerprinting Using Meta-Learning"
+  authors: "<b>Zhongnan Liu</b>, et al."
+  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027 (accepted)."
+  first_author: true
+
 # ---- 2026 ISMRM-ISMRT Annual Meeting, Cape Town ----
 - title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
   authors: "<b>Zhongnan Liu</b>, Calder Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."

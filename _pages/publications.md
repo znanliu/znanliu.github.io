@@ -30,12 +30,12 @@ I have co-authored 22 ISMRM/SCMR abstracts (9 as first author), with 5 oral pres
 {% for paper in site.data.conference %}{% if paper.first_author %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
-  _{{ paper.conference }}_  
+  _{{ paper.conference }}_{% if paper.url %} [[Abstract]]({{ paper.url }}){% endif %}  
 {% endif %}{% endfor %}
 
 ### Co-author
 {% for paper in site.data.conference %}{% unless paper.first_author %}
 - **{{ paper.title }}**  
   {{ paper.authors }}  
-  _{{ paper.conference }}_  
+  _{{ paper.conference }}_{% if paper.url %} [[Abstract]]({{ paper.url }}){% endif %}  
 {% endunless %}{% endfor %}

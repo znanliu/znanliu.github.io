@@ -30,4 +30,6 @@ I mostly listen to classical and instrumental music.
 
 Favorite TV dramas: [*Soldiers Sortie* (士兵突击)](https://en.wikipedia.org/wiki/Soldiers_Sortie) and [*My Chief and My Regiment* (我的团长我的团)](https://en.wikipedia.org/wiki/My_Chief_and_My_Regiment).
 
+<div style="display:none" aria-hidden="true">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=pguHiRWMKX6zEEkDl1GsuiLK4KV_I_WPdSa-IJjyOm4&cl=ffffff&w=a"></script>
+</div>

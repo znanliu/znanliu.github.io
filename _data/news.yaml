@@ -1,38 +1,39 @@
+# Newest first. Titles may use Markdown (bold, links).
 - date: 2026-11
-  title: "Two first-author abstracts accepted for presentation at the SCMR 30th Annual Scientific Sessions (Rome, Feb. 2027), including an oral talk in the ISMRM-SCMR workshop session on Short and Fast CMR Exams."
+  title: "Two first-author abstracts accepted at the SCMR 30th Annual Scientific Sessions (Rome, Feb. 2027), including one **Oral**."
 
 - date: 2026-06
-  title: "Co-authored paper on dynamic 3D MRI reconstruction via latent-space motion tracking published at CVPR 2026."
+  title: "Co-authored paper on dynamic 3D MRI reconstruction via latent-space motion tracking published at **CVPR 2026**. [[arXiv]](https://arxiv.org/abs/2606.04249)"
 
 - date: 2026-05
-  title: "Gave an oral presentation on meta-learning accelerated cardiac MRF reconstruction at the 2026 ISMRM Annual Meeting in Cape Town; co-authored three more ISMRM 2026 abstracts."
+  title: "First-author **Oral** on meta-learning accelerated cardiac MRF reconstruction at the 2026 ISMRM Annual Meeting (Cape Town), plus three co-authored abstracts."
 
 - date: 2026-05
-  title: "Our cardiac MR Fingerprinting paper was selected for the cover of the May 2026 issue of the Journal of Magnetic Resonance Imaging (JMRI)."
+  title: "Our 0.55T cardiac MR Fingerprinting paper was featured on the [cover](https://doi.org/10.1002/jmri.70316) of the May 2026 issue of *JMRI*."
+
+- date: 2026-02
+  title: "First-author **Oral** at the 29th SCMR Annual Meeting (Rio de Janeiro)."
+
+- date: 2026-01
+  title: "First-author **Oral** at the ISMRM Workshop on Data Sampling & Image Reconstruction (Sedona)."
 
 - date: 2025-12
-  title: "Paper accepted for publication in the Journal of Magnetic Resonance Imaging (JMRI)."
+  title: "Paper accepted in the *Journal of Magnetic Resonance Imaging (JMRI)*. [[DOI]](https://doi.org/10.1002/jmri.70239)"
 
-- date: 2025-11
-  title: "One abstract accepted for oral presentation at the ISMRM Workshop on Data Sampling & Image Reconstruction"
-
-- date: 2025-10
-  title: "One abstract accepted for oral presentation at the 2026 SCMR Annual Meeting"
+- date: 2025-05
+  title: "Presented a digital poster at the 2025 ISMRM Annual Meeting (Honolulu)."
 
 - date: 2025-02
-  title: "One abstract accepted for digital poster presentation at the 2025 ISMRM Annual Meeting"
+  title: "Presented a power pitch at the 28th SCMR Annual Meeting (Washington, D.C.)."
 
 - date: 2025-01
-  title: "Advanced to PhD Candidacy"
-
-- date: 2024-10
-  title: "One abstract accepted for power pitch at the 2025 SCMR Annual Meeting"
+  title: "Advanced to Ph.D. candidacy."
 
 - date: 2024-08
-  title: "Started PhD studies in ECE at the University of Michigan, Ann Arbor"
+  title: "Started my Ph.D. in ECE at the University of Michigan."
 
-- date: 2024-02
-  title: "One abstract accepted for oral presentation at the 2024 ISMRM Annual Meeting"
+- date: 2024-05
+  title: "First-author **Oral** at the 2024 ISMRM Annual Meeting (Singapore); received the ISMRM Summa Cum Laude Merit Award."
 
 - date: 2022-08
-  title: "Started MS studies in ECE at the University of Michigan, Ann Arbor"
+  title: "Started my M.S. in ECE at the University of Michigan."

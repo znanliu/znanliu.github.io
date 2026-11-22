@@ -1,58 +1,66 @@
 # Conference abstracts, newest first.
 # first_author: true -> listed under "First-author", otherwise under "Co-author".
 # url: link to the abstract (rendered as [Abstract]).
+# presentation: "Oral" or "Power Pitch" when applicable (Oral is highlighted).
 
 # ---- 30th SCMR Annual Scientific Sessions, Rome (upcoming) ----
 - title: "Retrospective Evaluation of a Shortened Cine MR Fingerprinting Acquisition"
   authors: "<b>Zhongnan Liu</b>, et al."
-  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027. ISMRM-SCMR Workshop Session: Short and Fast CMR Exams (Oral)."
+  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027. ISMRM-SCMR Workshop Session: Short and Fast CMR Exams."
+  presentation: "Oral"
   first_author: true
 
 - title: "An Accelerated Deep Image Prior Reconstruction for Cine MR Fingerprinting Using Meta-Learning"
   authors: "<b>Zhongnan Liu</b>, et al."
-  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027 (accepted)."
+  conference: "30th Annual Scientific Sessions of the SCMR, Rome, Italy, Feb. 2027."
   first_author: true
 
 # ---- 2026 ISMRM-ISMRT Annual Meeting, Cape Town ----
 - title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
   authors: "<b>Zhongnan Liu</b>, Calder Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
-  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #508-02-006 (Oral)."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #508-02-006."
+  presentation: "Oral"
   url: "https://echo.ismrm.org/abstracts/view/d02f20ff-61a2-4916-a8fe-31ce67e5e107"
   first_author: true
 
 - title: "High-Resolution 2D Cardiac MR Fingerprinting for Atrial Wall Assessment"
   authors: "Ana C. Saavedra, Sydney Kaplan, <b>Zhongnan Liu</b>, Jacob Richardson, Chaitanya Madamanchi, Jesse Hamilton, Nicole Seiberlich."
-  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #531-01-008 (Flash Presentation)."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #531-01-008."
   url: "https://echo.ismrm.org/abstracts/view/b54817dc-47d7-4a00-acb3-f954e1181a3d"
 
 - title: "Low-Rank Motion-Corrected Deep Image Prior Reconstruction for Cardiac Magnetic Resonance Fingerprinting"
   authors: "Calder Sheagren, <b>Zhongnan Liu</b>, Zexuan Liu, Gastao Cruz, Jesse Hamilton."
-  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #365-01-002 (Digital Poster)."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #365-01-002."
   url: "https://echo.ismrm.org/abstracts/view/d6c3ad37-b6f7-47b4-b5fd-477a9e1c863e"
 
 - title: "Improving the Precision and Repeatability of 0.55T Lung MRF Using a Deep Image Prior with Ensemble Averaging"
   authors: "Zexuan Liu, <b>Zhongnan Liu</b>, Calder Sheagren, Gastao Cruz, Nicole Seiberlich, Jesse Hamilton."
-  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #568-05-010 (Digital Poster)."
+  conference: "2026 ISMRM-ISMRT Annual Meeting, Cape Town, South Africa, May 2026. Program #568-05-010."
   url: "https://echo.ismrm.org/abstracts/view/60261bd7-6b48-407c-9d05-72062e0aa8e4"
 
 # ---- 29th SCMR Annual Meeting, Rio de Janeiro ----
 - title: "A Fast Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning Acceleration"
   authors: "<b>Zhongnan Liu</b>, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
-  conference: "29th Annual Meeting of the SCMR, Rio de Janeiro, Brazil, Feb. 2026 (Oral)."
+  conference: "29th Annual Meeting of the SCMR, Rio de Janeiro, Brazil, Feb. 2026."
+  presentation: "Oral"
+  url: "https://www.journalofcmr.com/article/S1097-6647(25)00382-5/fulltext"
   first_author: true
 
 - title: "A Single-TR-Resolved Deep Image Prior Reconstruction for Cardiac MR Fingerprinting"
   authors: "Calder D. Sheagren, <b>Zhongnan Liu</b>, Zexuan Liu, Gastao Lima Da Cruz, Jesse Hamilton."
   conference: "29th Annual Meeting of the SCMR, Rio de Janeiro, Brazil, Feb. 2026."
+  url: "https://www.journalofcmr.com/article/S1097-6647(25)00769-0/fulltext"
 
 - title: "Ensemble Averaging to Improve the Precision and Repeatability of Deep Image Prior Lung MR Fingerprinting at 0.55T"
   authors: "Zexuan Liu, Gastao Lima Da Cruz, <b>Zhongnan Liu</b>, Calder D. Sheagren, Nicole Seiberlich, Jesse Hamilton."
   conference: "29th Annual Meeting of the SCMR, Rio de Janeiro, Brazil, Feb. 2026."
+  url: "https://www.journalofcmr.com/article/S1097-6647(25)00540-X/fulltext"
 
 # ---- 2026 ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona ----
 - title: "An Accelerated Deep Image Prior Reconstruction for Cardiac MR Fingerprinting Using Meta-Learning"
   authors: "<b>Zhongnan Liu</b>, Calder Sheagren, Zexuan Liu, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
-  conference: "2026 ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, AZ, USA, Jan. 2026. Program #301-01-004 (Oral)."
+  conference: "2026 ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, AZ, USA, Jan. 2026. Program #301-01-004."
+  presentation: "Oral"
   url: "https://echo.ismrm.org/abstracts/view/855cf411-f8ea-4fcb-9724-5e91828c5798"
   first_author: true
 
@@ -80,7 +88,8 @@
 
 - title: "Accelerating 3D High-Resolution Brain MR Fingerprinting at 0.55T: Balanced Free-Precession meets Deep Learning"
   authors: "Rudy Rizzo, <b>Zhongnan Liu</b>, Jesus Ernesto Fajardo Freites, Tom Griesler, Jesse Hamilton, Yun Jiang, Nicole Seiberlich."
-  conference: "2025 ISMRM-ISMRT Annual Meeting, Honolulu, HI, USA, May 2025. Program #0653 (Oral)."
+  conference: "2025 ISMRM-ISMRT Annual Meeting, Honolulu, HI, USA, May 2025. Program #0653."
+  presentation: "Oral"
   url: "https://echo.ismrm.org/abstracts/view/29fd68ef-6d43-43d6-978f-cfecc95a8c5f"
 
 - title: "Quantitative Magnetization Transfer Mapping using Cardiac Magnetic Resonance Fingerprinting at 0.55T"
@@ -91,13 +100,15 @@
 # ---- 28th SCMR Annual Meeting, Washington, D.C. ----
 - title: "Cardiac MRF T1, T2, and M0 mapping at 0.55T with a Low-rank Deep Image Prior Reconstruction"
   authors: "<b>Zhongnan Liu</b>, Prachi Agarwal, Nicole Seiberlich, Liyue Shen, Jesse Hamilton."
-  conference: "28th Annual Meeting of the SCMR, Washington, D.C., USA, Feb. 2025 (Power Pitch)."
+  conference: "28th Annual Meeting of the SCMR, Washington, D.C., USA, Feb. 2025."
+  presentation: "Power Pitch"
   url: "https://www.journalofcmr.com/article/S1097-6647(24)01575-8/fulltext"
   first_author: true
 
 # ---- 2024 ISMRM-ISMRT Annual Meeting, Singapore ----
 - title: "Pattern Search Pulse Sequence Optimization for Cardiac MR Fingerprinting"
   authors: "<b>Zhongnan Liu</b>, Jacob Richardson, Nicole Seiberlich, Jesse Hamilton."
-  conference: "2024 ISMRM-ISMRT Annual Meeting, Singapore, May 2024. Program #0684 (Oral)."
+  conference: "2024 ISMRM-ISMRT Annual Meeting, Singapore, May 2024. Program #0684."
+  presentation: "Oral"
   url: "https://echo.ismrm.org/abstracts/view/5ac5d3b6-ca9b-4603-93dc-029d2cae8534"
   first_author: true

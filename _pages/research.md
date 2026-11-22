@@ -23,7 +23,7 @@ My research is on machine learning for inverse problems, applied to quantitative
 - Developed a REPTILE-based framework that meta-learns adaptable initializations for image reconstruction, coil sensitivity estimation, and network inputs in scan-specific, self-supervised cardiac MRF reconstruction.
 - Designed a coarse-to-fine optimization strategy with low-rank subspace modeling and Toeplitz-accelerated non-Cartesian data consistency to reduce repeated NUFFT computations.
 - Meta-trained on 40 datasets on an HPC cluster to get a shared initialization for a two-stage test-time optimization with mixed precision and CUDA Graphs.
-- Cut per-sample reconstruction time **60×** (42 min → ~40 s) on static data and **35×** (2 h → ~3.4 min) on time-series (cine) data on an A40 GPU. The speedup comes from meta-initialization and profiling-driven GPU optimization (GROG gridding, Toeplitz operators, fused data pipeline), with no loss in accuracy and good out-of-distribution generalization (patient, post-contrast, and long-axis data).
+- Cut per-sample reconstruction time on an NVIDIA A40 GPU from **8.3 min to 32 s (~16×)** on static data and from **66 min to 2.4 min (~28×)** on cine data. The speedup comes from meta-initialization and profiling-driven GPU optimization (GROG gridding, Toeplitz operators, fused data pipeline), with comparable map quality and good out-of-distribution generalization (patient, post-contrast, and long-axis data).
 - Deployed the reconstruction inline on a clinical MRI scanner as a streaming TCP server inside the vendor's sandboxed, network-isolated runtime. It returns quantitative maps in ~3.4 min on an 8 GB NVIDIA T1000 edge GPU.
 
 <div class="research-figs">
@@ -34,7 +34,7 @@ My research is on machine learning for inverse problems, applied to quantitative
     <img src="{{ base_path }}/images/research/meta-mrf-example2.webp" alt="T1 and T2 maps: conventional reconstruction in 8.3 min versus meta-learned reconstruction in 32 s" loading="lazy">
   </figure>
 </div>
-<p class="research-figs__caption">Myocardial T<sub>1</sub> and T<sub>2</sub> maps in two examples. In each example, the left column is the conventional scan-specific reconstruction and the right column is our meta-learned reconstruction. Reconstruction time drops from 66 min to 2.4 min and from 8.3 min to 32 s, with comparable map quality.</p>
+<p class="research-figs__caption">T<sub>1</sub> and T<sub>2</sub> maps: conventional scan-specific reconstruction (left column) vs. our meta-learned reconstruction (right column), timed on an A40 GPU. Left: cine data, 66 min → 2.4 min. Right: static data, 8.3 min → 32 s.</p>
 
 ## Low-Field Cardiac MRF: Sequence Adaptation & Reconstruction
 *Aug. 2024 – Dec. 2025*

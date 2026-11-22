@@ -28,13 +28,17 @@ My research is on machine learning for inverse problems, applied to quantitative
 
 <div class="research-figs">
   <figure>
-    <img src="{{ base_path }}/images/research/meta-mrf-example1.webp" alt="T1 and T2 maps: conventional reconstruction in 66 min versus meta-learned reconstruction in 2.4 min" loading="lazy">
+    <img src="{{ base_path }}/images/research/mrf2d.png" alt="2D cardiac MRF T1 and T2 maps, conventional vs ours" loading="lazy">
+    <figcaption>2D cardiac MRF: 8.3 min → 32 s per scan.</figcaption>
   </figure>
   <figure>
-    <img src="{{ base_path }}/images/research/meta-mrf-example2.webp" alt="T1 and T2 maps: conventional reconstruction in 8.3 min versus meta-learned reconstruction in 32 s" loading="lazy">
+    <video autoplay loop muted playsinline preload="metadata" poster="{{ base_path }}/images/research/cine_mrf_poster.jpg">
+      <source src="{{ base_path }}/images/research/cine_mrf.mp4" type="video/mp4">
+    </video>
+    <figcaption>Cine cardiac MRF across the cardiac cycle: 66 min → 2.4 min.</figcaption>
   </figure>
 </div>
-<p class="research-figs__caption">T<sub>1</sub> and T<sub>2</sub> maps: conventional scan-specific reconstruction (left column) vs. our meta-learned reconstruction (right column), timed on an A40 GPU. Left: cine data, 66 min → 2.4 min. Right: static data, 8.3 min → 32 s.</p>
+<p class="research-figs__caption">Conventional scan-specific reconstruction vs. our meta-learned reconstruction. Reconstruction times measured on an NVIDIA A40 GPU.</p>
 
 ## Low-Field Cardiac MRF: Sequence Adaptation & Reconstruction
 *Aug. 2024 – Dec. 2025*

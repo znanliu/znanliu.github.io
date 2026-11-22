@@ -8,7 +8,7 @@ author_profile: true
 I grew up in Beijing. Outside the lab, I like to stay active and spend a lot of time with music.
 
 - **Sports:** swimming, jogging, cycling, and skiing
-- **Instrument:** I play the tuba
+- **Instrument:** I play the [tuba](https://en.wikipedia.org/wiki/Tuba)
 
 ## Listening
 

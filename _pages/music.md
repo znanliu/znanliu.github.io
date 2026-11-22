@@ -24,7 +24,7 @@ I mostly listen to classical and instrumental music.
 - [Schumann, Fantasie in C major, Op. 17](https://en.wikipedia.org/wiki/Fantasie_(Schumann))
 - [Hua'er (花儿乐队)](https://en.wikipedia.org/wiki/Hua%27er)
 - [He Yong (何勇), *Drum Tower* (钟鼓楼)](https://www.bilibili.com/video/BV1q5411s7Wu/)
-- [163braces (吳朵芸)](https://www.youtube.com/@163_braces), a Taiwanese singer-songwriter
+- 163braces
 
 ## Watching
 

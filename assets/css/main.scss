@@ -39,3 +39,17 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* Research page figures */
+.research-figs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1.5em 0 0.5em;
+  figure { flex: 1 1 280px; margin: 0; }
+  img { width: 100%; height: auto; border-radius: 6px; display: block; }
+}
+.research-figs__caption {
+  font-size: 0.8em;
+  color: #7a8288;
+  margin-bottom: 2em;
+}

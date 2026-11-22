@@ -26,6 +26,16 @@ My research is on machine learning for inverse problems, applied to quantitative
 - Cut per-sample reconstruction time **60×** (42 min → ~40 s) on static data and **35×** (2 h → ~3.4 min) on time-series (cine) data on an A40 GPU. The speedup comes from meta-initialization and profiling-driven GPU optimization (GROG gridding, Toeplitz operators, fused data pipeline), with no loss in accuracy and good out-of-distribution generalization (patient, post-contrast, and long-axis data).
 - Deployed the reconstruction inline on a clinical MRI scanner as a streaming TCP server inside the vendor's sandboxed, network-isolated runtime. It returns quantitative maps in ~3.4 min on an 8 GB NVIDIA T1000 edge GPU.
 
+<div class="research-figs">
+  <figure>
+    <img src="{{ base_path }}/images/research/meta-mrf-example1.webp" alt="T1 and T2 maps: conventional reconstruction in 66 min versus meta-learned reconstruction in 2.4 min" loading="lazy">
+  </figure>
+  <figure>
+    <img src="{{ base_path }}/images/research/meta-mrf-example2.webp" alt="T1 and T2 maps: conventional reconstruction in 8.3 min versus meta-learned reconstruction in 32 s" loading="lazy">
+  </figure>
+</div>
+<p class="research-figs__caption">Myocardial T<sub>1</sub> and T<sub>2</sub> maps in two examples. In each example, the left column is the conventional scan-specific reconstruction and the right column is our meta-learned reconstruction. Reconstruction time drops from 66 min to 2.4 min and from 8.3 min to 32 s, with comparable map quality.</p>
+
 ## Low-Field Cardiac MRF: Sequence Adaptation & Reconstruction
 *Aug. 2024 – Dec. 2025*
 
